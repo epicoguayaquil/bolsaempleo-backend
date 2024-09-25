@@ -1,0 +1,4 @@
+# dependences
+/vendor
+*.bak
+.DS_Store
