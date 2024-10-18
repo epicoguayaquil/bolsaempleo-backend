@@ -37,11 +37,11 @@ Este proyecto esta desarrollado en un modelo de capas estructurado de la siguien
   - routes.php
   - settings.php
 **Tener en cuenta lo siguiente:**
-- En caso de agregar un nuevo archivo.php en la carpeta routes debes agregar en el archivo routes.php
-- Todas las calses de la carpeta BusinessLogic extienden a BaseBusinessLogic.php
-- Todas las clases de la carpeta Controllers extienden a BaseControllers.php
-- Todas las clases de la carpeta Models extienden a BaseModel.php
-- Todas las clases de la carpeta Validators extienden a BaseValidator.php
+- En caso de agregar un nuevo archivo.php en la carpeta routes debes agregar en el archivo **routes.php**
+- Todas las calses de la carpeta BusinessLogic extienden a **BaseBusinessLogic.php**
+- Todas las clases de la carpeta Controllers extienden a **BaseControllers.php**
+- Todas las clases de la carpeta Models extienden a **BaseModel.php**
+- Todas las clases de la carpeta Validators extienden a **BaseValidator.php**
 
 
 ## Cómo contribuir a este proyecto
