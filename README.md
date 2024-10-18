@@ -21,6 +21,29 @@ https://github.com/epicoguayaquil/bolsaempleo-backend.git
 ```bash
 composer install
 ```
+## Estructura del Proyecto
+Este proyecto esta desarrollado en un modelo de capas estructurado de la siguiente forma:
+- src
+	- modulo
+		- BusinessLogic
+		- Controllers
+		- Models
+		- Validators
+  - routes (en esta carpeta van todas las rutas de cada modulo lleva el mismo nombre del moduo)
+    - empleabilidad.php
+  - dependencies.php
+  - environment.php
+  - middleware.php
+  - routes.php
+  - settings.php
+**Tener en cuenta lo siguiente:**
+- En caso de agregar un nuevo archivo.php en la carpeta routes debes agregar en el archivo routes.php
+- Todas las calses de la carpeta BusinessLogic extienden a BaseBusinessLogic.php
+- Todas las clases de la carpeta Controllers extienden a BaseControllers.php
+- Todas las clases de la carpeta Models extienden a BaseModel.php
+- Todas las clases de la carpeta Validators extienden a BaseValidator.php
+
+
 ## Cómo contribuir a este proyecto
 Aquí hay 2 pasos rápidos y sencillos para contribuir a este proyecto:
 
