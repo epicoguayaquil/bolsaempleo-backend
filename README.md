@@ -54,3 +54,12 @@ git push origin dev/nombre-de-la-rama
 * Crea una nueva solicitud de extracción desde tu repositorio forkeado (Haz clic en el botón `New Pull Request` ubicado en la parte superior de tu repositorio)
 * ¡Espera la revisión de tu PR y la aprobación de la fusión!
 * __¡Dale una estrella a este repositorio__ si te ha gustado!
+
+## Autor o Equipo de Desarrollo
+EPICO
+
+## Contacto
+Para consultas relacionadas con el proyecto, puedes contactar a:
+- **Ernesto Ruales**  
+  Email: [ernesto.ruales@epico.gob.ec](mailto:ernesto.ruales@epico.gob.ec)
+
